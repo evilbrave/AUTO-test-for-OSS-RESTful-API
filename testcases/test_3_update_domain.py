@@ -64,6 +64,6 @@ if __name__ == '__main__':
         print "[Error] init access token failed!"
         exit(-1)
 
-    old_domain = "old_domain"
-    new_domain = "TWF_DOMAIN"
+    old_domain = "TWF_DOMAIN"
+    new_domain = "WTF_DOMAIN"
     testcase_0(headers, body_content, old_domain, new_domain)
